@@ -17,6 +17,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/core": [
+        "src/app/core/public_api"
+      ],
+      "@app/shared": [
+        "src/app/shared/public_api"
+      ],
+      "@app/feature/basic-ms": [
+        "src/app/feature/basic-ms/public_api"
+      ]
+    }
   }
 }
