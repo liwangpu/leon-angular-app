@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    BrowserModule.withServerTransition({ appId: 'my-angular-app' }),
     BrowserModule,
     AppRoutingModule
   ],
